@@ -1,0 +1,28 @@
+{
+  "name": "CycleTracker: Period tracking app",
+  "short-name": "CT",
+  "description": "My first PWA, in which I follow a tutorial provided by developer.mozilla.org",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#eeffee",
+  "background_color": "#eeffee",
+  "icons": [
+    {
+      "src": "circle.ico",
+      "sizes": "48x48"
+    },
+    {
+      "src": "icons/circle.svg",
+      "sizes": "72x72 96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/tire.svg",
+      "sizes": "128x128 256x256"
+    },
+    {
+      "src": "icons/wheel.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
