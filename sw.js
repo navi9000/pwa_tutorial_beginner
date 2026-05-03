@@ -1,15 +1,15 @@
-const VERSION = "v2"
+const VERSION = "v3"
 const CACHE_NAME = `period-tracker-${VERSION}`
 
 const APP_STATIC_RESOURCES = [
   "/pwa_tutorial_beginner/",
-  "/index.html",
-  "/style.css",
-  "/app.js",
-  "/manifest.json",
-  "/icons/circle.svg",
-  "/icons/tire.svg",
-  "/icons/wheel.svg",
+  "/pwa_tutorial_beginner/index.html",
+  "/pwa_tutorial_beginner/style.css",
+  "/pwa_tutorial_beginner/app.js",
+  "/pwa_tutorial_beginner/manifest.json",
+  "/pwa_tutorial_beginner/icons/circle.svg",
+  "/pwa_tutorial_beginner/icons/tire.svg",
+  "/pwa_tutorial_beginner/icons/wheel.svg",
 ]
 
 self.addEventListener("install", (event) => {
